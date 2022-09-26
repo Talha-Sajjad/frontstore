@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import static Helper.Helper.driver;
 
 // This class can be used as reference how to initialize driver and run test cases
+// Combine branch added
 public class Example {
     @BeforeTest
     public static void initializeDriver(){
