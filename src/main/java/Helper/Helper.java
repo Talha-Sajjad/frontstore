@@ -12,7 +12,7 @@ public class Helper {
     public static ExtentSparkReporter spark;
     public static ExtentTest test;
     public static void createInstance() {
-        driver = BrowserFactory.startBrowser("edge", "https://web.cartlow.net/uae/en");
+        driver = BrowserFactory.startBrowser("chrome", "https://web.cartlow.net/uae/en");
     }
 
     public static void startReport() {
